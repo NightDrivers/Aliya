@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6336ACC92295352300940259 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6336ACC82295352300940259 /* AppDelegate.swift */; };
+		6336ACD02295352400940259 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6336ACCF2295352400940259 /* Assets.xcassets */; };
+		6336ACD32295352400940259 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6336ACD12295352400940259 /* LaunchScreen.storyboard */; };
+		6336ACDC229536D700940259 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6336ACDB229536D700940259 /* HomeViewController.swift */; };
+		6336ACE0229537F300940259 /* ScrollableSegmentedControllTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6336ACDF229537F300940259 /* ScrollableSegmentedControllTestViewController.swift */; };
+		FA32A452FFC7D5D9A4858E63 /* Pods_Aliya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77D4BEC260B10EEA3E68B4EA /* Pods_Aliya.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		06319672275DD0E237EB2827 /* Pods-Aliya.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aliya.release.xcconfig"; path = "Target Support Files/Pods-Aliya/Pods-Aliya.release.xcconfig"; sourceTree = "<group>"; };
+		6336ACC52295352300940259 /* Aliya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aliya.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6336ACC82295352300940259 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6336ACCF2295352400940259 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6336ACD22295352400940259 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6336ACD42295352400940259 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6336ACDB229536D700940259 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		6336ACDF229537F300940259 /* ScrollableSegmentedControllTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableSegmentedControllTestViewController.swift; sourceTree = "<group>"; };
+		77D4BEC260B10EEA3E68B4EA /* Pods_Aliya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Aliya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8EF53D71432013458C0AA8C /* Pods-Aliya.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aliya.debug.xcconfig"; path = "Target Support Files/Pods-Aliya/Pods-Aliya.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6336ACC22295352300940259 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA32A452FFC7D5D9A4858E63 /* Pods_Aliya.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28808D041F04620E8475CB5A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C8EF53D71432013458C0AA8C /* Pods-Aliya.debug.xcconfig */,
+				06319672275DD0E237EB2827 /* Pods-Aliya.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5E0482A6DE1973077C8530C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77D4BEC260B10EEA3E68B4EA /* Pods_Aliya.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6336ACBC2295352300940259 = {
+			isa = PBXGroup;
+			children = (
+				6336ACC72295352300940259 /* Aliya */,
+				6336ACC62295352300940259 /* Products */,
+				28808D041F04620E8475CB5A /* Pods */,
+				5E0482A6DE1973077C8530C3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6336ACC62295352300940259 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6336ACC52295352300940259 /* Aliya.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6336ACC72295352300940259 /* Aliya */ = {
+			isa = PBXGroup;
+			children = (
+				6336ACDA229536BC00940259 /* Class */,
+				6336ACC82295352300940259 /* AppDelegate.swift */,
+				6336ACCF2295352400940259 /* Assets.xcassets */,
+				6336ACD12295352400940259 /* LaunchScreen.storyboard */,
+				6336ACD42295352400940259 /* Info.plist */,
+			);
+			path = Aliya;
+			sourceTree = "<group>";
+		};
+		6336ACDA229536BC00940259 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				6336ACDD2295373D00940259 /* module */,
+				6336ACDB229536D700940259 /* HomeViewController.swift */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		6336ACDD2295373D00940259 /* module */ = {
+			isa = PBXGroup;
+			children = (
+				6336ACDE2295377600940259 /* ScrollableSegmentedControll */,
+			);
+			path = module;
+			sourceTree = "<group>";
+		};
+		6336ACDE2295377600940259 /* ScrollableSegmentedControll */ = {
+			isa = PBXGroup;
+			children = (
+				6336ACDF229537F300940259 /* ScrollableSegmentedControllTestViewController.swift */,
+			);
+			path = ScrollableSegmentedControll;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6336ACC42295352300940259 /* Aliya */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6336ACD72295352400940259 /* Build configuration list for PBXNativeTarget "Aliya" */;
+			buildPhases = (
+				09CC493627F2D7284B902B0B /* [CP] Check Pods Manifest.lock */,
+				6336ACC12295352300940259 /* Sources */,
+				6336ACC22295352300940259 /* Frameworks */,
+				6336ACC32295352300940259 /* Resources */,
+				AB8F624075BC5A5FD7DFFF2E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Aliya;
+			productName = Aliya;
+			productReference = 6336ACC52295352300940259 /* Aliya.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6336ACBD2295352300940259 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Xiamen Hanin";
+				TargetAttributes = {
+					6336ACC42295352300940259 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 6336ACC02295352300940259 /* Build configuration list for PBXProject "Aliya" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6336ACBC2295352300940259;
+			productRefGroup = 6336ACC62295352300940259 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6336ACC42295352300940259 /* Aliya */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6336ACC32295352300940259 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6336ACD32295352400940259 /* LaunchScreen.storyboard in Resources */,
+				6336ACD02295352400940259 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09CC493627F2D7284B902B0B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Aliya-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB8F624075BC5A5FD7DFFF2E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Aliya/Pods-Aliya-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BaseKit/BaseKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BaseKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Aliya/Pods-Aliya-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6336ACC12295352300940259 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6336ACC92295352300940259 /* AppDelegate.swift in Sources */,
+				6336ACE0229537F300940259 /* ScrollableSegmentedControllTestViewController.swift in Sources */,
+				6336ACDC229536D700940259 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6336ACD12295352400940259 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6336ACD22295352400940259 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6336ACD52295352400940259 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6336ACD62295352400940259 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6336ACD82295352400940259 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8EF53D71432013458C0AA8C /* Pods-Aliya.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 976NLVLZMW;
+				INFOPLIST_FILE = Aliya/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hanin.Aliya;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6336ACD92295352400940259 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06319672275DD0E237EB2827 /* Pods-Aliya.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 976NLVLZMW;
+				INFOPLIST_FILE = Aliya/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hanin.Aliya;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6336ACC02295352300940259 /* Build configuration list for PBXProject "Aliya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6336ACD52295352400940259 /* Debug */,
+				6336ACD62295352400940259 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6336ACD72295352400940259 /* Build configuration list for PBXNativeTarget "Aliya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6336ACD82295352400940259 /* Debug */,
+				6336ACD92295352400940259 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6336ACBD2295352300940259 /* Project object */;
+}

@@ -1,0 +1,23 @@
+PODS:
+  - BaseKit (4.0.0):
+    - SnapKit (~> 4.2.0)
+  - SnapKit (4.2.0)
+
+DEPENDENCIES:
+  - BaseKit (from `/Users/ldc/Desktop/git/BaseKit`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SnapKit
+
+EXTERNAL SOURCES:
+  BaseKit:
+    :path: "/Users/ldc/Desktop/git/BaseKit"
+
+SPEC CHECKSUMS:
+  BaseKit: 5f73e21e875c3004444497f763d57e9dfe9f4a78
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+
+PODFILE CHECKSUM: b3e2ee4b9a0370e167be7d9eed5da2038a14844d
+
+COCOAPODS: 1.6.1

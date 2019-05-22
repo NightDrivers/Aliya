@@ -1,0 +1,25 @@
+{
+  "name": "BaseKit",
+  "version": "4.0.0",
+  "summary": "sum",
+  "swift_version": "4.2",
+  "description": "\"这是一个比较长的描述\"",
+  "homepage": "https://github.com/NightDrivers",
+  "license": "MIT",
+  "authors": {
+    "NightDriver": "lin_de_chun@sina.com"
+  },
+  "source": {
+    "git": "https://github.com/NightDrivers/BaseKit.git",
+    "tag": "4.0.0"
+  },
+  "source_files": "BaseKit/*/*.swift",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "dependencies": {
+    "SnapKit": [
+      "~> 4.2.0"
+    ]
+  }
+}
