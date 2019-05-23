@@ -35,6 +35,8 @@ class HomeViewController: UIViewController {
         var item: Item
         item = Item(type: ScrollableSegmentedControllTestViewController.self, title: "滑动多项选择器")
         items.append(item)
+        item = Item(type: AttributtedTextViewController.self, title: "属性化文本")
+        items.append(item)
     }
 
     lazy var tableView: UITableView = {

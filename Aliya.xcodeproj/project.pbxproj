@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63070F8B22963ABF00F6D1EB /* AttributedTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63070F8A22963ABF00F6D1EB /* AttributedTextViewController.swift */; };
 		6336ACC92295352300940259 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6336ACC82295352300940259 /* AppDelegate.swift */; };
 		6336ACD02295352400940259 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6336ACCF2295352400940259 /* Assets.xcassets */; };
 		6336ACD32295352400940259 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6336ACD12295352400940259 /* LaunchScreen.storyboard */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		06319672275DD0E237EB2827 /* Pods-Aliya.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aliya.release.xcconfig"; path = "Target Support Files/Pods-Aliya/Pods-Aliya.release.xcconfig"; sourceTree = "<group>"; };
+		63070F8A22963ABF00F6D1EB /* AttributedTextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttributedTextViewController.swift; sourceTree = "<group>"; };
 		6336ACC52295352300940259 /* Aliya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aliya.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6336ACC82295352300940259 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6336ACCF2295352400940259 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -55,6 +57,14 @@
 				77D4BEC260B10EEA3E68B4EA /* Pods_Aliya.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		63070F8922963A9200F6D1EB /* AttributedText */ = {
+			isa = PBXGroup;
+			children = (
+				63070F8A22963ABF00F6D1EB /* AttributedTextViewController.swift */,
+			);
+			path = AttributedText;
 			sourceTree = "<group>";
 		};
 		6336ACBC2295352300940259 = {
@@ -99,6 +109,7 @@
 		6336ACDD2295373D00940259 /* module */ = {
 			isa = PBXGroup;
 			children = (
+				63070F8922963A9200F6D1EB /* AttributedText */,
 				6336ACDE2295377600940259 /* ScrollableSegmentedControll */,
 			);
 			path = module;
@@ -235,6 +246,7 @@
 			files = (
 				6336ACC92295352300940259 /* AppDelegate.swift in Sources */,
 				6336ACE0229537F300940259 /* ScrollableSegmentedControllTestViewController.swift in Sources */,
+				63070F8B22963ABF00F6D1EB /* AttributedTextViewController.swift in Sources */,
 				6336ACDC229536D700940259 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
